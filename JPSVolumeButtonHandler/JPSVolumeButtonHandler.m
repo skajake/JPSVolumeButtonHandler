@@ -14,8 +14,8 @@
 
 static NSString *const sessionVolumeKeyPath = @"outputVolume";
 static void *sessionContext                 = &sessionContext;
-static CGFloat maxVolume                    = 0.99999f;
-static CGFloat minVolume                    = 0.00001f;
+static CGFloat maxVolume                    = 0.8f;
+static CGFloat minVolume                    = 0.2f;
 
 @interface JPSVolumeButtonHandler ()
 
